@@ -2,12 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-## The first function makeCacheMatrix creates a special "matrix" which is really a list containing a function to
-## 1. set the matrix
-## 2. get the matrix
-## 3. set the inverse of the matrix
-## 4. get the inverse of the matrix
-
+## This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
